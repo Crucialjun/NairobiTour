@@ -106,7 +106,12 @@ public class MainActivity extends AppCompatActivity
             View layout = inflater.inflate(R.layout.top_experiences,null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_restaurants) {
+            LinearLayout mainLayout = findViewById(R.id.main_container);
+            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View layout = inflater.inflate(R.layout.restaurants,null);
+            mainLayout.removeAllViews();
+            mainLayout.addView(layout);
 
         } else if (id == R.id.nav_share) {
 
