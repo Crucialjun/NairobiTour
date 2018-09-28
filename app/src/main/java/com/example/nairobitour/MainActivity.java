@@ -87,11 +87,16 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             LinearLayout mainLayout = findViewById(R.id.main_container);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View layout = inflater.inflate(R.layout.about_page,null);
+            View layout = inflater.inflate(R.layout.content_main,null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
 
         } else if (id == R.id.nav_gallery) {
+            LinearLayout mainLayout = findViewById(R.id.main_container);
+            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View layout = inflater.inflate(R.layout.about_page,null);
+            mainLayout.removeAllViews();
+            mainLayout.addView(layout);
 
         } else if (id == R.id.nav_slideshow) {
 

@@ -7,3 +7,7 @@ S
 #app/src/main/res/values/strings.xml,d\2\d2281fbb3027de2722081a53408dd77628bf080e
 X
 (app/src/main/res/layout/content_main.xml,7\c\7c023c74a9bce7eb3587d0708a1c0350f6266748
+V
+&app/src/main/res/layout/about_page.xml,8\3\8398239d6e1c4c5d48b8f7ad346ee9e946a82bf7
+^
+.app/src/main/res/menu/activity_main_drawer.xml,a\8\a874acbd348e069027d5c3df7eceb1a0bba28be9
