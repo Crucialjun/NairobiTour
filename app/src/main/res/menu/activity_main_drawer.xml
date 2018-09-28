@@ -13,7 +13,7 @@
             android:icon="@drawable/about"
             android:title="About" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_top_experiences"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Top Experiences" />
         <item

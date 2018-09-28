@@ -1,6 +1,7 @@
 package com.example.nairobitour;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.ScrollView;
 
 public class MainActivity extends AppCompatActivity
@@ -84,22 +86,26 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
             LinearLayout mainLayout = findViewById(R.id.main_container);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.content_main,null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_about) {
             LinearLayout mainLayout = findViewById(R.id.main_container);
             LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout = inflater.inflate(R.layout.about_page,null);
             mainLayout.removeAllViews();
             mainLayout.addView(layout);
 
-        } else if (id == R.id.nav_slideshow) {
-
+        } else if (id == R.id.nav_top_experiences) {
+            LinearLayout mainLayout = findViewById(R.id.main_container);
+            LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            View layout = inflater.inflate(R.layout.top_experiences,null);
+            mainLayout.removeAllViews();
+            mainLayout.addView(layout);
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
