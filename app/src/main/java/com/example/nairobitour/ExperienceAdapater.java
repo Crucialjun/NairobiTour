@@ -19,6 +19,9 @@ public class ExperienceAdapater extends ArrayAdapter<Experience> {
     @NonNull
     @Override
     public View getView(int position, @androidx.annotation.Nullable @Nullable View convertView, @androidx.annotation.NonNull @NonNull ViewGroup parent) {
+
+        View list
+
         return super.getView(position, convertView, parent);
     }
 }
